@@ -8,9 +8,9 @@ requirejs([
 	"polyfills",
 	"text!/templates/gdp.mustache",
 	"text!/json/gdpPerCountry.json",
-	"text!/json/countries.geo.json",
 	"ractive"
-], function(agave, unused, gdpTemplate, gdpPerCountry, mapData, Ractive) {
+], function(agave, unused, gdpTemplate, gdpData, Ractive) {
+	gdpData = JSON.parse(gdpData)
 
 	agave.enable('av');
 
@@ -20,33 +20,7 @@ requirejs([
 
 	var BRIGHT_BLUE = '#21c6dd';
 
-	gdpPerCountry = JSON.parse(gdpPerCountry)
-	mapData = JSON.parse(mapData)
-
-	// Our list of features includes all countries, we only care about the countries
-	// with GDP
-	mapDataRelevantFeatures = [];
-	mapData.features.forEach(function(country){
-		var found = gdpPerCountry.find(function(countryWithGDP){return ( countryWithGDP.code === country.id ) })
-		if ( found ) {
-			mapDataRelevantFeatures.push(country)
-		}
-	})
-	mapData.features = mapDataRelevantFeatures
-
-	window.mapData = mapData
-
-	var gdpTableBinding = new Ractive({
-		el: query('.gdp-table'),
-		data: {
-			countries: gdpPerCountry
-		},
-		template: gdpTemplate
-	});
-
-	var gdpData = gdpPerCountry.map(function(country){
-		return {'code': country.code, 'value': country.gdp}
-	})
+	window.gdpData = gdpData
 
 	var chart = new Highcharts.Map({
 
@@ -66,10 +40,26 @@ requirejs([
 		colorAxis: {
 		},
 
+		credits: {
+			enabled: false
+		},
+
+		colorAxis: {
+		  min: 1,
+		  type: 'logarithmic',
+		  minColor: '#EEEEFF',
+		  maxColor: '#000022',
+		  stops: [
+		      [0, '#EFEFFF'],
+		      [0.67, '#4444FF'],
+		      [1, '#000022']
+		  ]
+		},
+
 		series : [{
-			mapData: mapData,
+			mapData: Highcharts.maps['custom/world'],
 			data : gdpData,
-			joinBy: ['id', 'code'], // First is mapdata, second is data
+			joinBy: ['id', 'code'],
 			name: 'GDP per country',
 			states: {
 				hover: {
@@ -77,11 +67,23 @@ requirejs([
 				}
 			},
 			dataLabels: {
-				enabled: true,
-				format: '{point.name}'
+				enabled: false
 			}
 		}]
 	});
+
+	// And the easy part: the table.
+	var gdpTableBinding = new Ractive({
+		el: query('.gdp-table'),
+		data: {
+			countries: gdpData,
+			commaSeperate: function numberWithCommas(x) {
+				return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+		},
+		template: gdpTemplate
+	});
+
 
 })
 

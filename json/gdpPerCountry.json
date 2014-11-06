@@ -1,937 +1,937 @@
 [
   {
     "country": "United States",
-    "code": "USA",
-    "gdp": 16800000
+    "id": "USA",
+    "value": 16800000
   },
   {
     "country": "China",
-    "code": "CHN",
-    "gdp": 9240270
+    "id": "CHN",
+    "value": 9240270
   },
   {
     "country": "Japan",
-    "code": "JPN",
-    "gdp": 4901530
+    "id": "JPN",
+    "value": 4901530
   },
   {
     "country": "Germany",
-    "code": "DEU",
-    "gdp": 3634823
+    "id": "DEU",
+    "value": 3634823
   },
   {
     "country": "France",
-    "code": "FRA",
-    "gdp": 2734949
+    "id": "FRA",
+    "value": 2734949
   },
   {
     "country": "United Kingdom",
-    "code": "GBR",
-    "gdp": 2522261
+    "id": "GBR",
+    "value": 2522261
   },
   {
     "country": "Brazil",
-    "code": "BRA",
-    "gdp": 2245673
+    "id": "BRA",
+    "value": 2245673
   },
   {
     "country": "Russian Federation",
-    "code": "RUS",
-    "gdp": 2096777
+    "id": "RUS",
+    "value": 2096777
   },
   {
     "country": "Italy",
-    "code": "ITA",
-    "gdp": 2071307
+    "id": "ITA",
+    "value": 2071307
   },
   {
     "country": "India",
-    "code": "IND",
-    "gdp": 1876797
+    "id": "IND",
+    "value": 1876797
   },
   {
     "country": "Canada",
-    "code": "CAN",
-    "gdp": 1825096
+    "id": "CAN",
+    "value": 1825096
   },
   {
     "country": "Australia",
-    "code": "AUS",
-    "gdp": 1560597
+    "id": "AUS",
+    "value": 1560597
   },
   {
     "country": "Spain",
-    "code": "ESP",
-    "gdp": 1358263
+    "id": "ESP",
+    "value": 1358263
   },
   {
     "country": "Korea, Rep.",
-    "code": "KOR",
-    "gdp": 1304554
+    "id": "KOR",
+    "value": 1304554
   },
   {
     "country": "Mexico",
-    "code": "MEX",
-    "gdp": 1260915
+    "id": "MEX",
+    "value": 1260915
   },
   {
     "country": "Indonesia",
-    "code": "IDN",
-    "gdp": 868346
+    "id": "IDN",
+    "value": 868346
   },
   {
     "country": "Turkey",
-    "code": "TUR",
-    "gdp": 820207
+    "id": "TUR",
+    "value": 820207
   },
   {
     "country": "Netherlands",
-    "code": "NLD",
-    "gdp": 800173
+    "id": "NLD",
+    "value": 800173
   },
   {
     "country": "Saudi Arabia",
-    "code": "SAU",
-    "gdp": 745273
+    "id": "SAU",
+    "value": 745273
   },
   {
     "country": "Switzerland",
-    "code": "CHE",
-    "gdp": 650782
+    "id": "CHE",
+    "value": 650782
   },
   {
     "country": "Argentina",
-    "code": "ARG",
-    "gdp": 611755
+    "id": "ARG",
+    "value": 611755
   },
   {
     "country": "Sweden",
-    "code": "SWE",
-    "gdp": 557938
+    "id": "SWE",
+    "value": 557938
   },
   {
     "country": "Nigeria",
-    "code": "NGA",
-    "gdp": 522638
+    "id": "NGA",
+    "value": 522638
   },
   {
     "country": "Poland",
-    "code": "POL",
-    "gdp": 517543
+    "id": "POL",
+    "value": 517543
   },
   {
     "country": "Norway",
-    "code": "NOR",
-    "gdp": 512580
+    "id": "NOR",
+    "value": 512580
   },
   {
     "country": "Belgium",
-    "code": "BEL",
-    "gdp": 508116
+    "id": "BEL",
+    "value": 508116
   },
   {
     "country": "Venezuela, RB",
-    "code": "VEN",
-    "gdp": 438284
+    "id": "VEN",
+    "value": 438284
   },
   {
     "country": "Austria",
-    "code": "AUT",
-    "gdp": 415844
+    "id": "AUT",
+    "value": 415844
   },
   {
     "country": "Thailand",
-    "code": "THA",
-    "gdp": 387252
+    "id": "THA",
+    "value": 387252
   },
   {
     "country": "United Arab Emirates",
-    "code": "ARE",
-    "gdp": 383799
+    "id": "ARE",
+    "value": 383799
   },
   {
     "country": "Colombia",
-    "code": "COL",
-    "gdp": 378148
+    "id": "COL",
+    "value": 378148
   },
   {
     "country": "Iran, Islamic Rep.",
-    "code": "IRN",
-    "gdp": 368904
+    "id": "IRN",
+    "value": 368904
   },
   {
     "country": "South Africa",
-    "code": "ZAF",
-    "gdp": 350630
+    "id": "ZAF",
+    "value": 350630
   },
   {
     "country": "Denmark",
-    "code": "DNK",
-    "gdp": 330814
+    "id": "DNK",
+    "value": 330814
   },
   {
     "country": "Malaysia",
-    "code": "MYS",
-    "gdp": 312435
+    "id": "MYS",
+    "value": 312435
   },
   {
     "country": "Singapore",
-    "code": "SGP",
-    "gdp": 297941
+    "id": "SGP",
+    "value": 297941
   },
   {
     "country": "Israel",
-    "code": "ISR",
-    "gdp": 291357
+    "id": "ISR",
+    "value": 291357
   },
   {
     "country": "Chile",
-    "code": "CHL",
-    "gdp": 277199
+    "id": "CHL",
+    "value": 277199
   },
   {
     "country": "Hong Kong SAR, China",
-    "code": "HKG",
-    "gdp": 274013
+    "id": "HKG",
+    "value": 274013
   },
   {
     "country": "Philippines",
-    "code": "PHL",
-    "gdp": 272017
+    "id": "PHL",
+    "value": 272017
   },
   {
     "country": "Egypt, Arab Rep.",
-    "code": "EGY",
-    "gdp": 271973
+    "id": "EGY",
+    "value": 271973
   },
   {
     "country": "Finland",
-    "code": "FIN",
-    "gdp": 256842
+    "id": "FIN",
+    "value": 256842
   },
   {
     "country": "Greece",
-    "code": "GRC",
-    "gdp": 241721
+    "id": "GRC",
+    "value": 241721
   },
   {
     "country": "Pakistan",
-    "code": "PAK",
-    "gdp": 236625
+    "id": "PAK",
+    "value": 236625
   },
   {
     "country": "Kazakhstan",
-    "code": "KAZ",
-    "gdp": 224415
+    "id": "KAZ",
+    "value": 224415
   },
   {
     "country": "Iraq",
-    "code": "IRQ",
-    "gdp": 222879
+    "id": "IRQ",
+    "value": 222879
   },
   {
     "country": "Portugal",
-    "code": "PRT",
-    "gdp": 219962
+    "id": "PRT",
+    "value": 219962
   },
   {
     "country": "Ireland",
-    "code": "IRL",
-    "gdp": 217816
+    "id": "IRL",
+    "value": 217816
   },
   {
     "country": "Algeria",
-    "code": "DZA",
-    "gdp": 210183
+    "id": "DZA",
+    "value": 210183
   },
   {
     "country": "Qatar",
-    "code": "QAT",
-    "gdp": 202450
+    "id": "QAT",
+    "value": 202450
   },
   {
     "country": "Peru",
-    "code": "PER",
-    "gdp": 202296
+    "id": "PER",
+    "value": 202296
   },
   {
     "country": "Czech Republic",
-    "code": "CZE",
-    "gdp": 198450
+    "id": "CZE",
+    "value": 198450
   },
   {
     "country": "Kuwait",
-    "code": "KWT",
-    "gdp": 183219
+    "id": "KWT",
+    "value": 183219
   },
   {
     "country": "New Zealand",
-    "code": "NZL",
-    "gdp": 182594
+    "id": "NZL",
+    "value": 182594
   },
   {
     "country": "Ukraine",
-    "code": "UKR",
-    "gdp": 177431
+    "id": "UKR",
+    "value": 177431
   },
   {
     "country": "Vietnam",
-    "code": "VNM",
-    "gdp": 171392
+    "id": "VNM",
+    "value": 171392
   },
   {
     "country": "Bangladesh",
-    "code": "BGD",
-    "gdp": 129857
+    "id": "BGD",
+    "value": 129857
   },
   {
     "country": "Hungary",
-    "code": "HUN",
-    "gdp": 124600
+    "id": "HUN",
+    "value": 124600
   },
   {
     "country": "Angola",
-    "code": "AGO",
-    "gdp": 121704
+    "id": "AGO",
+    "value": 121704
   },
   {
     "country": "Morocco",
-    "code": "MAR",
-    "gdp": 104374
+    "id": "MAR",
+    "value": 104374
   },
   {
     "country": "Puerto Rico",
-    "code": "PRI",
-    "gdp": 101496
+    "id": "PRI",
+    "value": 101496
   },
   {
     "country": "Slovak Republic",
-    "code": "SVK",
-    "gdp": 91348
+    "id": "SVK",
+    "value": 91348
   },
   {
     "country": "Ecuador",
-    "code": "ECU",
-    "gdp": 90023
+    "id": "ECU",
+    "value": 90023
   },
   {
     "country": "Oman",
-    "code": "OMN",
-    "gdp": 80570
+    "id": "OMN",
+    "value": 80570
   },
   {
     "country": "Libya",
-    "code": "LBY",
-    "gdp": 75456
+    "id": "LBY",
+    "value": 75456
   },
   {
     "country": "Azerbaijan",
-    "code": "AZE",
-    "gdp": 73560
+    "id": "AZE",
+    "value": 73560
   },
   {
     "country": "Belarus",
-    "code": "BLR",
-    "gdp": 71710
+    "id": "BLR",
+    "value": 71710
   },
   {
     "country": "Cuba",
-    "code": "CUB",
-    "gdp": 68234
+    "id": "CUB",
+    "value": 68234
   },
   {
     "country": "Sri Lanka",
-    "code": "LKA",
-    "gdp": 67182
+    "id": "LKA",
+    "value": 67182
   },
   {
     "country": "Sudan",
-    "code": "SDN",
-    "gdp": 66548
+    "id": "SDN",
+    "value": 66548
   },
   {
     "country": "Dominican Republic",
-    "code": "DOM",
-    "gdp": 60614
+    "id": "DOM",
+    "value": 60614
   },
   {
     "country": "Luxembourg",
-    "code": "LUX",
-    "gdp": 60383
+    "id": "LUX",
+    "value": 60383
   },
   {
     "country": "Croatia",
-    "code": "HRV",
-    "gdp": 57539
+    "id": "HRV",
+    "value": 57539
   },
   {
     "country": "Uzbekistan",
-    "code": "UZB",
-    "gdp": 56796
+    "id": "UZB",
+    "value": 56796
   },
   {
     "country": "Uruguay",
-    "code": "URY",
-    "gdp": 55708
+    "id": "URY",
+    "value": 55708
   },
   {
     "country": "Guatemala",
-    "code": "GTM",
-    "gdp": 53797
+    "id": "GTM",
+    "value": 53797
   },
   {
     "country": "Bulgaria",
-    "code": "BGR",
-    "gdp": 53010
+    "id": "BGR",
+    "value": 53010
   },
   {
     "country": "Macao SAR, China",
-    "code": "MAC",
-    "gdp": 51753
+    "id": "MAC",
+    "value": 51753
   },
   {
     "country": "Costa Rica",
-    "code": "CRI",
-    "gdp": 49621
+    "id": "CRI",
+    "value": 49621
   },
   {
     "country": "Ghana",
-    "code": "GHA",
-    "gdp": 47929
+    "id": "GHA",
+    "value": 47929
   },
   {
     "country": "Tunisia",
-    "code": "TUN",
-    "gdp": 47129
+    "id": "TUN",
+    "value": 47129
   },
   {
     "country": "Ethiopia",
-    "code": "ETH",
-    "gdp": 46869
+    "id": "ETH",
+    "value": 46869
   },
   {
     "country": "Slovenia",
-    "code": "SVN",
-    "gdp": 45378
+    "id": "SVN",
+    "value": 45378
   },
   {
     "country": "Lebanon",
-    "code": "LBN",
-    "gdp": 44352
+    "id": "LBN",
+    "value": 44352
   },
   {
     "country": "Kenya",
-    "code": "KEN",
-    "gdp": 44101
+    "id": "KEN",
+    "value": 44101
   },
   {
     "country": "Panama",
-    "code": "PAN",
-    "gdp": 42648
+    "id": "PAN",
+    "value": 42648
   },
   {
     "country": "Serbia",
-    "code": "SRB",
-    "gdp": 42521
+    "id": "SRB",
+    "value": 42521
   },
   {
     "country": "Lithuania",
-    "code": "LTU",
-    "gdp": 42344
+    "id": "LTU",
+    "value": 42344
   },
   {
     "country": "Turkmenistan",
-    "code": "TKM",
-    "gdp": 41851
+    "id": "TKM",
+    "value": 41851
   },
   {
     "country": "Yemen, Rep.",
-    "code": "YEM",
-    "gdp": 35955
+    "id": "YEM",
+    "value": 35955
   },
   {
     "country": "Jordan",
-    "code": "JOR",
-    "gdp": 33678
+    "id": "JOR",
+    "value": 33678
   },
   {
     "country": "Tanzania",
-    "code": "TZA",
-    "gdp": 33225
+    "id": "TZA",
+    "value": 33225
   },
   {
     "country": "Bahrain",
-    "code": "BHR",
-    "gdp": 32788
+    "id": "BHR",
+    "value": 32788
   },
   {
     "country": "Côte d'Ivoire",
-    "code": "CIV",
-    "gdp": 30905
+    "id": "CIV",
+    "value": 30905
   },
   {
     "country": "Bolivia",
-    "code": "BOL",
-    "gdp": 30601
+    "id": "BOL",
+    "value": 30601
   },
   {
     "country": "Paraguay",
-    "code": "PRY",
-    "gdp": 29949
+    "id": "PRY",
+    "value": 29949
   },
   {
     "country": "Cameroon",
-    "code": "CMR",
-    "gdp": 29275
+    "id": "CMR",
+    "value": 29275
   },
   {
     "country": "Latvia",
-    "code": "LVA",
-    "gdp": 28373
+    "id": "LVA",
+    "value": 28373
   },
   {
     "country": "Trinidad and Tobago",
-    "code": "TTO",
-    "gdp": 24641
+    "id": "TTO",
+    "value": 24641
   },
   {
     "country": "Estonia",
-    "code": "EST",
-    "gdp": 24477
+    "id": "EST",
+    "value": 24477
   },
   {
     "country": "El Salvador",
-    "code": "SLV",
-    "gdp": 24259
+    "id": "SLV",
+    "value": 24259
   },
   {
     "country": "Cyprus",
-    "code": "CYP",
-    "gdp": 22767
+    "id": "CYP",
+    "value": 22767
   },
   {
     "country": "Zambia",
-    "code": "ZMB",
-    "gdp": 22384
+    "id": "ZMB",
+    "value": 22384
   },
   {
     "country": "Uganda",
-    "code": "UGA",
-    "gdp": 21483
+    "id": "UGA",
+    "value": 21483
   },
   {
     "country": "Afghanistan",
-    "code": "AFG",
-    "gdp": 20725
+    "id": "AFG",
+    "value": 20725
   },
   {
     "country": "Gabon",
-    "code": "GAB",
-    "gdp": 19344
+    "id": "GAB",
+    "value": 19344
   },
   {
     "country": "Nepal",
-    "code": "NPL",
-    "gdp": 19294
+    "id": "NPL",
+    "value": 19294
   },
   {
     "country": "Honduras",
-    "code": "HND",
-    "gdp": 18550
+    "id": "HND",
+    "value": 18550
   },
   {
     "country": "Bosnia and Herzegovina",
-    "code": "BIH",
-    "gdp": 17828
+    "id": "BIH",
+    "value": 17828
   },
   {
     "country": "Georgia",
-    "code": "GEO",
-    "gdp": 16127
+    "id": "GEO",
+    "value": 16127
   },
   {
     "country": "Brunei Darussalam",
-    "code": "BRN",
-    "gdp": 16111
+    "id": "BRN",
+    "value": 16111
   },
   {
     "country": "Equatorial Guinea",
-    "code": "GNQ",
-    "gdp": 15574
+    "id": "GNQ",
+    "value": 15574
   },
   {
     "country": "Mozambique",
-    "code": "MOZ",
-    "gdp": 15319
+    "id": "MOZ",
+    "value": 15319
   },
   {
     "country": "Papua New Guinea",
-    "code": "PNG",
-    "gdp": 15289
+    "id": "PNG",
+    "value": 15289
   },
   {
     "country": "Cambodia",
-    "code": "KHM",
-    "gdp": 15250
+    "id": "KHM",
+    "value": 15250
   },
   {
     "country": "Senegal",
-    "code": "SEN",
-    "gdp": 15150
+    "id": "SEN",
+    "value": 15150
   },
   {
     "country": "Botswana",
-    "code": "BWA",
-    "gdp": 14788
+    "id": "BWA",
+    "value": 14788
   },
   {
     "country": "Iceland",
-    "code": "ISL",
-    "gdp": 14620
+    "id": "ISL",
+    "value": 14620
   },
   {
     "country": "Jamaica",
-    "code": "JAM",
-    "gdp": 14362
+    "id": "JAM",
+    "value": 14362
   },
   {
     "country": "Congo, Rep.",
-    "code": "COG",
-    "gdp": 14108
+    "id": "COG",
+    "value": 14108
   },
   {
     "country": "South Sudan",
-    "code": "SSD",
-    "gdp": 13797
+    "id": "SSD",
+    "value": 13797
   },
   {
     "country": "Chad",
-    "code": "TCD",
-    "gdp": 13414
+    "id": "TCD",
+    "value": 13414
   },
   {
     "country": "Albania",
-    "code": "ALB",
-    "gdp": 12904
+    "id": "ALB",
+    "value": 12904
   },
   {
     "country": "Zimbabwe",
-    "code": "ZWE",
-    "gdp": 12802
+    "id": "ZWE",
+    "value": 12802
   },
   {
     "country": "Namibia",
-    "code": "NAM",
-    "gdp": 12580
+    "id": "NAM",
+    "value": 12580
   },
   {
     "country": "Mauritius",
-    "code": "MUS",
-    "gdp": 11938
+    "id": "MUS",
+    "value": 11938
   },
   {
     "country": "Burkina Faso",
-    "code": "BFA",
-    "gdp": 11583
+    "id": "BFA",
+    "value": 11583
   },
   {
     "country": "Mongolia",
-    "code": "MNG",
-    "gdp": 11516
+    "id": "MNG",
+    "value": 11516
   },
   {
     "country": "Nicaragua",
-    "code": "NIC",
-    "gdp": 11256
+    "id": "NIC",
+    "value": 11256
   },
   {
     "country": "Lao PDR",
-    "code": "LAO",
-    "gdp": 11141
+    "id": "LAO",
+    "value": 11141
   },
   {
     "country": "Mali",
-    "code": "MLI",
-    "gdp": 10943
+    "id": "MLI",
+    "value": 10943
   },
   {
     "country": "Madagascar",
-    "code": "MDG",
-    "gdp": 10797
+    "id": "MDG",
+    "value": 10797
   },
   {
     "country": "Armenia",
-    "code": "ARM",
-    "gdp": 10432
+    "id": "ARM",
+    "value": 10432
   },
   {
     "country": "Macedonia, FYR",
-    "code": "MKD",
-    "gdp": 10221
+    "id": "MKD",
+    "value": 10221
   },
   {
     "country": "Malta",
-    "code": "MLT",
-    "gdp": 8741
+    "id": "MLT",
+    "value": 8741
   },
   {
     "country": "Tajikistan",
-    "code": "TJK",
-    "gdp": 8508
+    "id": "TJK",
+    "value": 8508
   },
   {
     "country": "Haiti",
-    "code": "HTI",
-    "gdp": 8459
+    "id": "HTI",
+    "value": 8459
   },
   {
     "country": "Benin",
-    "code": "BEN",
-    "gdp": 8307
+    "id": "BEN",
+    "value": 8307
   },
   {
     "country": "Bahamas, The",
-    "code": "BHS",
-    "gdp": 8149
+    "id": "BHS",
+    "value": 8149
   },
   {
     "country": "Moldova",
-    "code": "MDA",
-    "gdp": 7935
+    "id": "MDA",
+    "value": 7935
   },
   {
     "country": "Rwanda",
-    "code": "RWA",
-    "gdp": 7452
+    "id": "RWA",
+    "value": 7452
   },
   {
     "country": "Niger",
-    "code": "NER",
-    "gdp": 7356
+    "id": "NER",
+    "value": 7356
   },
   {
     "country": "Kyrgyz Republic",
-    "code": "KGZ",
-    "gdp": 7226
+    "id": "KGZ",
+    "value": 7226
   },
   {
     "country": "Guinea",
-    "code": "GIN",
-    "gdp": 6193
+    "id": "GIN",
+    "value": 6193
   },
   {
     "country": "Monaco",
-    "code": "MCO",
-    "gdp": 6075
+    "id": "MCO",
+    "value": 6075
   },
   {
     "country": "Bermuda",
-    "code": "BMU",
-    "gdp": 5474
+    "id": "BMU",
+    "value": 5474
   },
   {
     "country": "Suriname",
-    "code": "SUR",
-    "gdp": 5231
+    "id": "SUR",
+    "value": 5231
   },
   {
     "country": "Sierra Leone",
-    "code": "SLE",
-    "gdp": 4929
+    "id": "SLE",
+    "value": 4929
   },
   {
     "country": "Montenegro",
-    "code": "MNE",
-    "gdp": 4428
+    "id": "MNE",
+    "value": 4428
   },
   {
     "country": "Togo",
-    "code": "TGO",
-    "gdp": 4339
+    "id": "TGO",
+    "value": 4339
   },
   {
     "country": "Barbados",
-    "code": "BRB",
-    "gdp": 4225
+    "id": "BRB",
+    "value": 4225
   },
   {
     "country": "Mauritania",
-    "code": "MRT",
-    "gdp": 4163
+    "id": "MRT",
+    "value": 4163
   },
   {
     "country": "Fiji",
-    "code": "FJI",
-    "gdp": 4028
+    "id": "FJI",
+    "value": 4028
   },
   {
     "country": "Swaziland",
-    "code": "SWZ",
-    "gdp": 3791
+    "id": "SWZ",
+    "value": 3791
   },
   {
     "country": "Malawi",
-    "code": "MWI",
-    "gdp": 3705
+    "id": "MWI",
+    "value": 3705
   },
   {
     "country": "Eritrea",
-    "code": "ERI",
-    "gdp": 3444
+    "id": "ERI",
+    "value": 3444
   },
   {
     "country": "Guyana",
-    "code": "GUY",
-    "gdp": 3076
+    "id": "GUY",
+    "value": 3076
   },
   {
     "country": "Burundi",
-    "code": "BDI",
-    "gdp": 2718
+    "id": "BDI",
+    "value": 2718
   },
   {
     "country": "Aruba",
-    "code": "ABW",
-    "gdp": 2584
+    "id": "ABW",
+    "value": 2584
   },
   {
     "country": "Maldives",
-    "code": "MDV",
-    "gdp": 2300
+    "id": "MDV",
+    "value": 2300
   },
   {
     "country": "Lesotho",
-    "code": "LSO",
-    "gdp": 2230
+    "id": "LSO",
+    "value": 2230
   },
   {
     "country": "Liberia",
-    "code": "LBR",
-    "gdp": 1951
+    "id": "LBR",
+    "value": 1951
   },
   {
     "country": "Cape Verde",
-    "code": "CPV",
-    "gdp": 1888
+    "id": "CPV",
+    "value": 1888
   },
   {
     "country": "Bhutan",
-    "code": "BTN",
-    "gdp": 1884
+    "id": "BTN",
+    "value": 1884
   },
   {
     "country": "Belize",
-    "code": "BLZ",
-    "gdp": 1605
+    "id": "BLZ",
+    "value": 1605
   },
   {
     "country": "Central African Republic",
-    "code": "CAF",
-    "gdp": 1538
+    "id": "CAF",
+    "value": 1538
   },
   {
     "country": "Djibouti",
-    "code": "DJI",
-    "gdp": 1456
+    "id": "DJI",
+    "value": 1456
   },
   {
     "country": "St. Lucia",
-    "code": "LCA",
-    "gdp": 1332
+    "id": "LCA",
+    "value": 1332
   },
   {
     "country": "Seychelles",
-    "code": "SYC",
-    "gdp": 1268
+    "id": "SYC",
+    "value": 1268
   },
   {
     "country": "Antigua and Barbuda",
-    "code": "ATG",
-    "gdp": 1230
+    "id": "ATG",
+    "value": 1230
   },
   {
     "country": "Solomon Islands",
-    "code": "SLB",
-    "gdp": 1096
+    "id": "SLB",
+    "value": 1096
   },
   {
     "country": "Gambia, The",
-    "code": "GMB",
-    "gdp": 914
+    "id": "GMB",
+    "value": 914
   },
   {
     "country": "Guinea-Bissau",
-    "code": "GNB",
-    "gdp": 859
+    "id": "GNB",
+    "value": 859
   },
   {
     "country": "Vanuatu",
-    "code": "VUT",
-    "gdp": 835
+    "id": "VUT",
+    "value": 835
   },
   {
     "country": "Grenada",
-    "code": "GRD",
-    "gdp": 834
+    "id": "GRD",
+    "value": 834
   },
   {
     "country": "St. Kitts and Nevis",
-    "code": "KNA",
-    "gdp": 743
+    "id": "KNA",
+    "value": 743
   },
   {
     "country": "St. Vincent and the Grenadines",
-    "code": "VCT",
-    "gdp": 726
+    "id": "VCT",
+    "value": 726
   },
   {
     "country": "Samoa",
-    "code": "WSM",
-    "gdp": 694
+    "id": "WSM",
+    "value": 694
   },
   {
     "country": "Comoros",
-    "code": "COM",
-    "gdp": 657
+    "id": "COM",
+    "value": 657
   },
   {
     "country": "Dominica",
-    "code": "DMA",
-    "gdp": 505
+    "id": "DMA",
+    "value": 505
   },
   {
     "country": "Tonga",
-    "code": "TON",
-    "gdp": 466
+    "id": "TON",
+    "value": 466
   },
   {
     "country": "Micronesia, Fed. Sts.",
-    "code": "FSM",
-    "gdp": 335
+    "id": "FSM",
+    "value": 335
   },
   {
     "country": "São Tomé and Principe",
-    "code": "STP",
-    "gdp": 311
+    "id": "STP",
+    "value": 311
   },
   {
     "country": "Palau",
-    "code": "PLW",
-    "gdp": 247
+    "id": "PLW",
+    "value": 247
   },
   {
     "country": "Marshall Islands",
-    "code": "MHL",
-    "gdp": 175
+    "id": "MHL",
+    "value": 175
   },
   {
     "country": "Kiribati",
-    "code": "KIR",
-    "gdp": 169
+    "id": "KIR",
+    "value": 169
   },
   {
     "country": "Tuvalu",
-    "code": "TUV",
-    "gdp": 38
+    "id": "TUV",
+    "value": 38
   }
 ]

@@ -26,5 +26,8 @@ Use whatever tools, additional data, libraries or frameworks you wish.
 
 Good luck.
 
+Glpobe
+http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/maps/demo/all-maps/
+
 http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/maps/demo/geojson/
 http://interactive.guim.co.uk/embed/2014/oct/ebola/#map

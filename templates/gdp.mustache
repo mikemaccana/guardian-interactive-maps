@@ -5,10 +5,12 @@
 		<th>GDP (millions of USD)</th>
 	</tr>
 	{{ #countries:i }}
-		<tr>
-			<td>{{ i+1 }}</td>
-			<td>{{ country }}</td>
-			<td class="numbers">{{ gdp }}</td>
-		</tr>
+		{{ #country }}
+			<tr>
+				<td>{{ i+1 }}</td>
+				<td>{{ country }}</td>
+				<td class="numbers">{{ commaSeperate(value) }}</td>
+			</tr>
+		{{/}}
 	{{ / }}
 </table>
