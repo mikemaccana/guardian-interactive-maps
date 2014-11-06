@@ -127,6 +127,12 @@ requirejs([
 
 	var chart = new Highcharts.Map({
 
+		title: null,
+
+		chart: {
+			renderTo: query('.gdp-map')
+		},
+
 		mapNavigation: {
 			enabled: true,
 			buttonOptions: {
@@ -134,9 +140,6 @@ requirejs([
 			}
 		},
 
-		chart: {
-      renderTo: query('.gdp-map')
-    },
 
 		colorAxis: {
 		},
@@ -150,12 +153,11 @@ requirejs([
 				hover: {
 					color: '#BADA55'
 				}
+			},
+			dataLabels: {
+				enabled: true,
+				format: '{point.name}'
 			}
-			// ,
-			// dataLabels: {
-			// 	enabled: true,
-			// 	format: '{point.properties.postal}'
-			// }
 		}]
 	});
 
