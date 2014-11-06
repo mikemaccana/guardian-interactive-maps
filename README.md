@@ -26,3 +26,4 @@ Use whatever tools, additional data, libraries or frameworks you wish.
 
 Good luck.
 
+http://interactive.guim.co.uk/embed/2014/oct/ebola/#map

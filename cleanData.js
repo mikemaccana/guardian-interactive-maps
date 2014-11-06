@@ -19,7 +19,6 @@ var fileContents = fs.readFileSync('GDP.csv');
 // https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes
 var validCountryCodes = jsonFile.readFileSync('validCountryCodes.json');
 
-
 var VALID_COUNTRY_CODES = validCountryCodes.map( function(datum){return datum['alpha-3'] })
 
 csvParse(fileContents, {}, function(err, output){
