@@ -20,11 +20,27 @@ body {
 	font-family: "Guardian Egyptian Web", Georgia, serif;
 	padding: $spacing / 4 $spacing;
 	margin: 0;
+	max-width: 620px;
 }
 
 h1 {
 	font-size: 24px;
 	color: $blue;
+	&::before {
+		margin-bottom: 4px;
+		display: block;
+		content: " ";
+		height: 4px;
+		background-color: $bright-blue;
+		width: 70px;
+	}
+}
+
+p {
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	font-size: 16px;
+	line-height: 1.5em;
 }
 
 table {
