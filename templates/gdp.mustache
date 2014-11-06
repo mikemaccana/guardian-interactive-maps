@@ -1,12 +1,14 @@
 <table>
 	<tr>
+		<th>Rank</th>
 		<th>Country</th>
-		<th>GDP</th>
+		<th>GDP (millions of USD)</th>
 	</tr>
-	{{ #countries }}
+	{{ #countries:i }}
 		<tr>
+			<td>{{ i+1 }}</td>
 			<td>{{ country }}</td>
-			<td>{{ gdp }}</td>
+			<td class="numbers">{{ gdp }}</td>
 		</tr>
 	{{ / }}
 </table>

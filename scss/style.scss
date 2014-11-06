@@ -1,6 +1,50 @@
+@import "fonts";
+
 $spacing: 24px;
 
+$blue: #005689;
+$black: #333333;
+$mid-grey: #676767;
+
+$bright-blue: #21c6dd;
+
+$light-grey: #f9f9f7;
+$dark-grey: #efefef;
+
 *, *:before, *:after {
-  /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
-  box-sizing: border-box;
+	/* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Guardian Egyptian Web", Georgia, serif;
+	padding: $spacing / 4 $spacing;
+	margin: 0;
+}
+
+h1 {
+	font-size: 24px;
+	color: $blue;
+}
+
+table {
+	font-family: "Guardian Agate Sans", Arial, sans-serif;
+	font-weight: 100;
+	color: $mid-grey;
+	background-color: $light-grey;
+	border-top: 2px solid $bright-blue;
+	tr:nth-child(odd) {
+  	background-color: $dark-grey;
+	}
+	th, td {
+		padding: $spacing / 4;
+	}
+	th {
+		font-weight: 400;
+		text-align: left;
+		color: $black;
+	}
+	td.numbers {
+		text-align: right;
+	}
 }
