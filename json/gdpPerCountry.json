@@ -208,10 +208,6 @@
     "gdp": 198450
   },
   {
-    "country": "Romania",
-    "gdp": 189638
-  },
-  {
     "country": "Kuwait",
     "gdp": 183219
   },
@@ -378,10 +374,6 @@
   {
     "country": "Côte d'Ivoire",
     "gdp": 30905
-  },
-  {
-    "country": "Congo, Dem. Rep.",
-    "gdp": 30629
   },
   {
     "country": "Bolivia",
@@ -580,10 +572,6 @@
     "gdp": 7226
   },
   {
-    "country": "Kosovo",
-    "gdp": 6960
-  },
-  {
     "country": "Guinea",
     "gdp": 6193
   },
@@ -666,10 +654,6 @@
   {
     "country": "Bhutan",
     "gdp": 1884
-  },
-  {
-    "country": "Timor-Leste",
-    "gdp": 1615
   },
   {
     "country": "Belize",
@@ -762,9 +746,5 @@
   {
     "country": "Tuvalu",
     "gdp": 38
-  },
-  {
-    "country": "South Asia",
-    "gdp": 2354663
   }
 ]
