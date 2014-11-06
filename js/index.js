@@ -7,8 +7,9 @@ requirejs([
 	"agave",
 	"text!/templates/gdp.mustache",
 	"text!/json/gdpPerCountry.json",
+	"text!/json/countries.geo.json",
 	"ractive"
-], function(agave, gdpTemplate, gdpPerCountry, Ractive) {
+], function(agave, gdpTemplate, gdpPerCountry, countriesGeo, Ractive) {
 	agave.enable('av');
 	var query = function(selector) { return document.querySelector(selector) };
 	var queryAll = function(selector) { return document.querySelectorAll(selector) };
@@ -16,6 +17,7 @@ requirejs([
 	var log = console.log.bind(console)
 
 	gdpPerCountry = JSON.parse(gdpPerCountry)
+	countriesGeo = JSON.parse(countriesGeo)
 
 	var gdpTableBinding = new Ractive({
 		el: query('.gdp-table'),
@@ -23,9 +25,15 @@ requirejs([
 			countries: gdpPerCountry
 		},
 		template: gdpTemplate
+	});
+
+	window.gdpTableBinding = gdpTableBinding
+
+	var fakeData = gdpPerCountry.map(function(country){
+		return {'code': country.code, 'value': country.gdp}
 	})
 
-	var fakeData = [
+	var OLDfakeData = [
 		{
 				"code": "DE.SH",
 				"value": 728
@@ -117,7 +125,6 @@ requirejs([
 
 	// debugger;
 
-	// $('.gdp-map').highcharts('Map', {
 	var chart = new Highcharts.Map({
 
 		mapNavigation: {
@@ -136,18 +143,19 @@ requirejs([
 
 		series : [{
 			data : fakeData,
-			mapData: mapData,
+			mapData: countriesGeo, // mapData,
 			joinBy: ['code_hasc', 'code'],
 			name: 'Random data',
 			states: {
 				hover: {
 					color: '#BADA55'
 				}
-			},
-			dataLabels: {
-				enabled: true,
-				format: '{point.properties.postal}'
 			}
+			// ,
+			// dataLabels: {
+			// 	enabled: true,
+			// 	format: '{point.properties.postal}'
+			// }
 		}]
 	});
 

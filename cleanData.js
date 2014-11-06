@@ -41,6 +41,7 @@ csvParse(fileContents, {}, function(err, output){
 		if ( validEntry ) {
 			cleaned.push({
 				country: country,
+				code: countryCode,
 				gdp: parseInt(gdp)
 			})
 		} else {
