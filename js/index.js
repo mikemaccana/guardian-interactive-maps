@@ -24,7 +24,7 @@ requirejs([
 		darkBlue: '#000022'
 	}
 
-	// Hack!
+	// Hack as documentation for keypaths within Highmaps joinBy is lacking
 	Highcharts.maps['custom/world'].features.forEach(function(feature){
 		feature.realID = feature.properties['iso-a3']
 	})
