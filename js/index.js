@@ -18,7 +18,11 @@ requirejs([
 	var queryAll = function(selector) { return document.querySelectorAll(selector) };
 	var log = console.log.bind(console)
 
-	var BRIGHT_BLUE = '#21c6dd';
+	var COLORS = {
+		brightBlue: '#21c6dd',
+		paleBlue: '#EEEEFF',
+		darkBlue: '#000022'
+	}
 
 	window.gdpData = gdpData
 
@@ -47,13 +51,8 @@ requirejs([
 		colorAxis: {
 			min: 1,
 			type: 'logarithmic',
-			minColor: '#EEEEFF',
-			maxColor: '#000022',
-			stops: [
-				[0, '#EFEFFF'],
-				[0.67, '#4444FF'],
-				[1, '#000022']
-			]
+			minColor: COLORS.paleBlue,
+			maxColor: COLORS.darkBlue
 		},
 
 		series : [{
@@ -63,7 +62,7 @@ requirejs([
 			name: 'GDP per country',
 			states: {
 				hover: {
-					color: BRIGHT_BLUE
+					color: COLORS.brightBlue
 				}
 			},
 			dataLabels: {
