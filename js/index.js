@@ -24,7 +24,10 @@ requirejs([
 		darkBlue: '#000022'
 	}
 
-	window.gdpData = gdpData
+	// Hack!
+	Highcharts.maps['custom/world'].features.forEach(function(feature){
+		feature.realID = feature.properties['iso-a3']
+	})
 
 	var chart = new Highcharts.Map({
 
@@ -58,7 +61,9 @@ requirejs([
 		series : [{
 			mapData: Highcharts.maps['custom/world'],
 			data : gdpData,
-			joinBy: ['id', 'code'],
+			// http://api.highcharts.com/highmaps#plotOptions.map.joinBy
+			// the first points to a key in the mapData, and the second points to another key in the data
+			joinBy: ['realId', 'id'],
 			name: 'GDP per country',
 			states: {
 				hover: {
