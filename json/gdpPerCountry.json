@@ -260,6 +260,11 @@
     "value": 198450
   },
   {
+    "country": "Romania",
+    "id": "ROM",
+    "value": 189638
+  },
+  {
     "country": "Kuwait",
     "id": "KWT",
     "value": 183219
@@ -468,6 +473,11 @@
     "country": "Côte d'Ivoire",
     "id": "CIV",
     "value": 30905
+  },
+  {
+    "country": "Congo, Dem. Rep.",
+    "id": "ZAR",
+    "value": 30629
   },
   {
     "country": "Bolivia",
@@ -715,6 +725,11 @@
     "value": 7226
   },
   {
+    "country": "Kosovo",
+    "id": "KSV",
+    "value": 6960
+  },
+  {
     "country": "Guinea",
     "id": "GIN",
     "value": 6193
@@ -818,6 +833,11 @@
     "country": "Bhutan",
     "id": "BTN",
     "value": 1884
+  },
+  {
+    "country": "Timor-Leste",
+    "id": "TMP",
+    "value": 1615
   },
   {
     "country": "Belize",

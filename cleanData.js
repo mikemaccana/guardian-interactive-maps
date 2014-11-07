@@ -12,6 +12,8 @@ var log = console.log.bind(console),
 		console.log(JSON.stringify(object, null, 2))
 	}
 
+// Eg iso for Romainia is ROU, not ROM, ISO for DR Congo is COD, not ZAR.
+var NON_ISO_ALPHA_3_COUNTRY_CODES = ['ROM', 'ZAR', 'KSV', 'TMP']
 
 //We manually converted the file to utf8 from iso8895-1
 var fileContents = fs.readFileSync('GDP.csv');
@@ -19,14 +21,12 @@ var fileContents = fs.readFileSync('GDP.csv');
 // https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes
 var validCountryCodes = jsonFile.readFileSync('validCountryCodes.json');
 
-var VALID_COUNTRY_CODES = validCountryCodes.map( function(datum){return datum['alpha-3'] })
+var USED_COUNTRY_CODES = validCountryCodes.map( function(datum){return datum['alpha-3'] }).concat(NON_ISO_ALPHA_3_COUNTRY_CODES)
 
 csvParse(fileContents, {}, function(err, output){
 
-	log(err, output)
-
 	if ( err ) {
-		return
+		return log(err)
 	}
 
 	var cleaned = []
@@ -37,7 +37,7 @@ csvParse(fileContents, {}, function(err, output){
 		var countryCode = entry[0]
 		var country = entry[3].strip(' ')
 		var gdp = entry[4].strip(' ').replace(/,/g, '')
-		var validEntry = countryCode.length === 3 && ( VALID_COUNTRY_CODES.contains(countryCode) ) && ( gdp !== '..' )
+		var validEntry = countryCode.length === 3 && ( USED_COUNTRY_CODES.contains(countryCode) ) && ( gdp !== '..' )
 		if ( validEntry ) {
 			cleaned.push({
 				country: country,
